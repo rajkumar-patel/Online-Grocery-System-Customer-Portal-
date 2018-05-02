@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huerta.victoria.shoppinglist">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".apple"
+            android:label="@string/title_activity_apple"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Condiments" />
+        <activity android:name=".Ketchup" />
+        <activity android:name=".Dairy" />
+        <activity android:name=".Butter" />
+        <activity android:name=".Fruit" />
+        <activity android:name=".Apples" />
+        <activity android:name=".Meat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Chicken" />
+        <activity android:name=".Snacks" />
+        <activity android:name=".Vegetables" />
+        <activity android:name=".Broccoli" />
+        <activity android:name=".Relish" />
+        <activity android:name=".Mustard" />
+        <activity android:name=".Mayonnaise" />
+        <activity android:name=".Cheese" />
+        <activity android:name=".Milk" />
+        <activity android:name=".IceCream" />
+        <activity android:name=".Yogurt" />
+        <activity android:name=".Ribs" />
+        <activity android:name=".Beef" />
+        <activity android:name=".PorkTenderloin" />
+        <activity android:name=".Crab" />
+        <activity android:name=".Doritos" />
+        <activity android:name=".Oreos" />
+        <activity android:name=".GranolaBars" />
+        <activity android:name=".ChexMix" />
+        <activity android:name=".PopCorn" />
+        <activity android:name=".Lettuce" />
+        <activity android:name=".BellPepper" />
+        <activity android:name=".Cucumber" />
+        <activity android:name=".Carrots"></activity>
+    </application>
+
+</manifest>
